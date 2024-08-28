@@ -14,6 +14,10 @@ app.get('/', (req,res) => {
     res.render('index.ejs')
 })
 
+app.get('/createblog', (req,res) => {
+    res.render('createblog.ejs')
+})
+
 
 app.listen(port, () => {
     console.log(`Listening on port: ${port}`)

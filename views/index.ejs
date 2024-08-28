@@ -17,11 +17,12 @@
             </div>
             <div>
                 <ul id="headerlist">
-                    <li>Home</li>
-                    <li><a href="#" class="dropdown-parent">Products</a><i class="fa-solid fa-angle-down"></i></li>
-                    <li><a href="#" class="dropdown-m">Blog</a> <i class="fa-solid fa-angle-down"></i>
-                        <ul class="dropdown">
-                            <li class="item">Add</li>
+                    <li class="headeritems">Home</li>
+                    <li class="headeritems"><a href="#" class="dropdown-parent">Products</a> <i class="fa-solid fa-angle-down fa-2xs"></i></li>
+                    <li class="headeritems"><a href="#" class="dropdown-m">Blog</a> <i class="fa-solid fa-angle-down fa-2xs" id="menuIcon"></i>
+                        <ul class="dropdown" id="subMenu">
+                            <li class="item"><a href="/createblog">Add</a><i class="fa-solid fa-angle-right fa-2xs icon1"></i></li>
+                            <li class="item"><a href="#">Remove</a><i class="fa-solid fa-angle-right fa-2xs icon2"></i></li>
                         </ul>
                     </li>
                     <!-- <li class="nav-item dropdown">
@@ -33,8 +34,8 @@
                            You can add more items here if needed -->
                         <!-- </ul>  -->
                     <!-- </li> -->
-                    <li>Pricing</li>
-                    <li>About Us</li>
+                    <li class="headeritems">Pricing</li>
+                    <li class="headeritems">About Us</li>
                 </ul>
             </div>
             <div id="button-top">
@@ -180,5 +181,6 @@
        
     </div>
     <script src="/js/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/toggleButton.js"></script>
 </body>
 </html>

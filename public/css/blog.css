@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color:#B5C0D0;
+}
 #headerlist{
     list-style-type: none;
     display: flex;
@@ -272,29 +275,45 @@ a{
 }
 #left{
     background-color: #fff;
+    border-radius: 10px;
+
 }
 #left-card{
     background-color: #B5C0D0;
     /* margin-top: 10px; */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* color: #fff; */
-    height: 90vh;
-    margin: 50px;
+    height: 70vh;
+    margin: 10px;
+    width: 500px;
     border-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: 15px;
 }
 #innerleft-card1{
-    padding-top: 30vh;
+    padding-top: 15vh;
     margin: 20px;
+    /* border-radius: 10px; */
 }
 #wholecard{
-    
+    margin-top: 50px;
+    position: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1050px;
+    border-radius: 10px;
+    background-color: #fff;
+
+}
+#cardin{
+    border-radius: 10px !important;
 }
 
 #innerleft-card1 h3{
     /* margin-top: 20px; */
 }
 #right{
-    
+    background-color: #fff;
 }
 
 #innerleft-card2 img{
