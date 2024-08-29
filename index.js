@@ -18,6 +18,18 @@ app.get('/createblog', (req,res) => {
     res.render('createblog.ejs')
 })
 
+app.post('/newblog',(req,res) => {
+    const formData = req.body;
+
+    const timestamp = new Date();
+
+    formData.timestamp = timestamp;
+
+    console.log(formData);
+
+    res.render("index.ejs")
+})
+
 
 app.listen(port, () => {
     console.log(`Listening on port: ${port}`)

@@ -49,25 +49,39 @@
             <div class="col-md-6" id="left">
                 <div id="left-card">
                     <div id="innerleft-card1">
-                        <h3>Let us help you elevate your brand</h3>
-                        <p>Our blog creation process is quick and easy, taking less than 10 minutes to complete</p>
+                        <h3>Let us help you elevate your brand.</h3>
+                        <p>Our blog creation process is quick and easy, taking less than 10 minutes to complete.</p>
                     </div>
                     <div id="innerleft-card2">
-                        <p>I'm impressed with how my brand has skyrocketed since I started putting it out there on this platform</p>
-                        <img src="/images/user.jpg" alt="">
-                        <ul>
-                            <li><h6>Jonas Kim</h6></li>
-                            <li><p>Product Designer</p></li>
+                        <p>I'm impressed with how my brand has skyrocketed since I started putting it out there on this platform.</p>
+                        <img src="/images/Cv picture.jpeg" alt="">
+                        <ul id="card2-list">
+                            <li><h6 id="big">Edwin Mugarura</h6></li>
+                            <li><h6 id="small">Founder Ios Apps</h6></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="col-md-6" id="right">
                 <div id="right-card">
-
+                    <h3>Get Started</h3>
+                    <h5>Create your blog now</h5>
+                    <form action="/newblog" method="POST" id="blogform">
+                        <label for="firstname">First name</label><br>
+                        <input type="text" name="firstname" id="firstname" ><br>
+                        <label for="lastname">Last name</label><br>
+                        <input type="text" name="lastname" id="lastname" ><br>
+                        <label for="blogtitle">Blog title</label><br>
+                        <input type="text" name="blogtitle" id="blogtitle" ><br>
+                        <label for="bloginfo">Blog info</label><br>
+                        <input type="text" name="bloginfo" id="bloginfo" ><br>
+                        <button type="submit" class="btn btn-primary" id="formbutton">Post</button>
+                    </form>
+                 <p>Have an account? <a href="#">Login</a></p>   
                 </div>
             </div>
         </div>
     </div>
+    <script src="/js/toggleButton.js"></script>
 </body>
 </html>
